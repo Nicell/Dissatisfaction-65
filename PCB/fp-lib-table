@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Only.pretty)(options "")(descr ""))
+  (lib (name Dissatisfaction65)(type KiCad)(uri ${KIPRJMOD}/Dissatisfaction65.pretty)(options "")(descr ""))
+)
