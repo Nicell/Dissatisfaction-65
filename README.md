@@ -4,6 +4,8 @@
 </center>
 This is the hardware repository for my 65% QMK Bluetooth keyboard with an OLED and encoder.
 
+**I'm working on a new version of this to vastly improve the design and functionality. You can follow the development on [this discord](https://discord.gg/mYy7CFR)**
+
 # Software (QMK)
 You can currently find the firmware for this board at [my qmk-firmware fork](https://github.com/Nicell/qmk_firmware/tree/dissatisfaction-65). It requires [this pull-request](https://github.com/qmk/qmk_firmware/pull/7769) before it can be fully upstreamed.
 
@@ -27,7 +29,7 @@ You can get most of these items at different places, but I left the more conveni
 # Things I'd like to change
 There were a few things that I'd like to change. I haven't done them yet, but they would enhance the board.
  - Move the encoder switch to the matrix. Currently has its own direct connection.
- - Recreate the switch plate using ai03's plate designe. Currently has huge lines across stabs and stab holes really tight.
+ - Recreate the switch plate using ai03's plate designer. Currently has huge lines across stabs and the stab holes are really tight.
  - Re-dimension the OLED. It seems to be barely too far down and to the left. I can re-dimension now that I have calipers.
  - Redo the decoder using a 74HC154. No need to use the latched version that's more expensive and slower.
  - Create a little cut in the middle pieces to use as a prop up for the OLED.
